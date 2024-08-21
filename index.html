@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Encriptador de Texto</title>
+</head>
+<body>
+    
+    <div class="container">
+            <div class="input-area">
+                <h2>Digite seu texto</h2>
+                <textarea id="inputText" placeholder="Digite o texto aqui..."></textarea>
+                <p class="info-text">* Apenas letras minúsculas e sem acento.</p>
+                <button class="primaria" onclick="criptografar()">Criptografar</button>
+                <button class="secundaria" onclick="descriptografar()">Descriptografar</button>
+            </div>
+    
+            <div class="output-area">
+                <img src="./images/trabalhoFinal.jpg" alt="e/ou codifique e/ou descodifique">
+                <br>
+                <textarea id="output" placeholder="Texto Processado..."></textarea>
+            <!-- <span id="output"></span> -->
+                <br><br>
+                <button class="primaria" onclick="copiarTexto()">Copiar</button>
+            </div>
+        </div>
+    
+        <script src="script.js"></script>
+    
+</body>
+</html>
